@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "level": 0,
+  "name": "Hangeul",
+  "curriculum": "Pré-nível: alfabeto coreano (Hangeul), anterior ao Nível 1 do currículo padrão",
+  "topik": "Preparação para o TOPIK I",
+  "units": [
+    {
+      "unit": 1, "kind": "letters", "theme": "Vogais básicas",
+      "objectives": ["Reconhecer e pronunciar as 8 vogais básicas", "Associar cada vogal ao seu som aproximado em português"],
+      "vocabulary": [
+        { "ko": "ㅏ", "rom": "a", "pt": "som de \"a\" como em \"casa\"" },
+        { "ko": "ㅓ", "rom": "eo", "pt": "som de \"ó\" com a boca relaxada, como em \"pó\"" },
+        { "ko": "ㅗ", "rom": "o", "pt": "som de \"ô\" como em \"avô\"" },
+        { "ko": "ㅜ", "rom": "u", "pt": "som de \"u\" como em \"uva\"" },
+        { "ko": "ㅡ", "rom": "eu", "pt": "som de \"u\" com os lábios esticados (sorrindo)" },
+        { "ko": "ㅣ", "rom": "i", "pt": "som de \"i\" como em \"ilha\"" },
+        { "ko": "ㅐ", "rom": "ae", "pt": "som de \"é\" como em \"pé\"" },
+        { "ko": "ㅔ", "rom": "e", "pt": "som de \"ê\" como em \"mês\"" }
+      ],
+      "grammar": [
+        { "structure": "Vogal vertical e horizontal", "explanation": "Vogais verticais (ㅏ ㅓ ㅣ ㅐ ㅔ) ficam à direita da consoante. Vogais horizontais (ㅗ ㅜ ㅡ) ficam embaixo dela. Toda sílaba começa com uma consoante; o ㅇ no início é mudo.",
+          "examples": [
+            { "ko": "아", "rom": "a", "pt": "sílaba \"a\" (ㅇ mudo + ㅏ)" },
+            { "ko": "오", "rom": "o", "pt": "sílaba \"o\" (ㅇ mudo + ㅗ)" },
+            { "ko": "이", "rom": "i", "pt": "sílaba \"i\" (ㅇ mudo + ㅣ)" }
+          ] }
+      ]
+    },
+    {
+      "unit": 2, "kind": "letters", "theme": "Vogais compostas",
+      "objectives": ["Reconhecer as vogais com Y e W", "Ler as 9 vogais compostas"],
+      "vocabulary": [
+        { "ko": "ㅑ", "rom": "ya", "pt": "som de \"iá\"" },
+        { "ko": "ㅕ", "rom": "yeo", "pt": "som de \"ió\"" },
+        { "ko": "ㅛ", "rom": "yo", "pt": "som de \"iô\"" },
+        { "ko": "ㅠ", "rom": "yu", "pt": "som de \"iu\"" },
+        { "ko": "ㅘ", "rom": "wa", "pt": "som de \"uá\"" },
+        { "ko": "ㅝ", "rom": "wo", "pt": "som de \"uó\"" },
+        { "ko": "ㅚ", "rom": "oe", "pt": "som de \"uê\"" },
+        { "ko": "ㅟ", "rom": "wi", "pt": "som de \"ui\"" },
+        { "ko": "ㅢ", "rom": "ui", "pt": "ㅡ seguido de ㅣ, rápido" }
+      ],
+      "grammar": [
+        { "structure": "Vogais com Y e W", "explanation": "As vogais com Y ganham um traço a mais (ㅏ → ㅑ) e soam com um \"i\" na frente. As vogais com W combinam ㅗ ou ㅜ com outra vogal (ㅗ + ㅏ = ㅘ).",
+          "examples": [
+            { "ko": "야", "rom": "ya", "pt": "sílaba \"ya\"" },
+            { "ko": "여", "rom": "yeo", "pt": "sílaba \"yeo\"" },
+            { "ko": "와", "rom": "wa", "pt": "sílaba \"wa\"" }
+          ] }
+      ]
+    },
+    {
+      "unit": 3, "kind": "letters", "theme": "Consoantes básicas",
+      "objectives": ["Reconhecer as 14 consoantes básicas", "Formar sílabas simples consoante + vogal"],
+      "vocabulary": [
+        { "ko": "ㄱ", "rom": "g/k", "pt": "como \"g\" de \"gato\" (no fim da sílaba, \"k\" suave)" },
+        { "ko": "ㄴ", "rom": "n", "pt": "como \"n\" de \"nada\"" },
+        { "ko": "ㄷ", "rom": "d/t", "pt": "como \"d\" de \"dado\" (no fim, \"t\" suave)" },
+        { "ko": "ㄹ", "rom": "r/l", "pt": "\"r\" fraco entre vogais; \"l\" no fim da sílaba" },
+        { "ko": "ㅁ", "rom": "m", "pt": "como \"m\" de \"mala\"" },
+        { "ko": "ㅂ", "rom": "b/p", "pt": "como \"b\" de \"bola\" (no fim, \"p\" suave)" },
+        { "ko": "ㅅ", "rom": "s", "pt": "como \"s\" de \"sapo\"" },
+        { "ko": "ㅇ", "rom": "mudo/ng", "pt": "mudo no início da sílaba; \"ng\" no fim" },
+        { "ko": "ㅈ", "rom": "j", "pt": "como \"dj\" suave, parecido com \"dj\" de \"DJ\"" },
+        { "ko": "ㅊ", "rom": "ch", "pt": "como \"tch\" de \"tchau\", com sopro" },
+        { "ko": "ㅋ", "rom": "k", "pt": "como \"k\" com sopro forte" },
+        { "ko": "ㅌ", "rom": "t", "pt": "como \"t\" com sopro forte" },
+        { "ko": "ㅍ", "rom": "p", "pt": "como \"p\" com sopro forte" },
+        { "ko": "ㅎ", "rom": "h", "pt": "como \"h\" aspirado do inglês \"hello\"" }
+      ],
+      "grammar": [
+        { "structure": "Consoante + vogal = sílaba", "explanation": "Cada sílaba é montada em um quadradinho: consoante + vogal. Exemplos: ㄱ + ㅏ = 가 (ga); ㄴ + ㅗ = 노 (no); ㅁ + ㅜ = 무 (mu).",
+          "examples": [
+            { "ko": "가", "rom": "ga", "pt": "sílaba \"ga\"" },
+            { "ko": "노", "rom": "no", "pt": "sílaba \"no\"" },
+            { "ko": "무", "rom": "mu", "pt": "sílaba \"mu\"" },
+            { "ko": "하", "rom": "ha", "pt": "sílaba \"ha\"" }
+          ] }
+      ]
+    },
+    {
+      "unit": 4, "kind": "letters", "theme": "Consoantes duplas",
+      "objectives": ["Distinguir consoantes simples, aspiradas e tensas", "Ler as 5 consoantes duplas"],
+      "vocabulary": [
+        { "ko": "ㄲ", "rom": "kk", "pt": "\"k\" tenso, sem sopro, garganta apertada" },
+        { "ko": "ㄸ", "rom": "tt", "pt": "\"t\" tenso, sem sopro" },
+        { "ko": "ㅃ", "rom": "pp", "pt": "\"p\" tenso, sem sopro" },
+        { "ko": "ㅆ", "rom": "ss", "pt": "\"s\" tenso e mais forte" },
+        { "ko": "ㅉ", "rom": "jj", "pt": "\"j\" tenso, mais firme" }
+      ],
+      "grammar": [
+        { "structure": "Três graus de força", "explanation": "O coreano tem consoantes simples (ㄱ), aspiradas, com sopro (ㅋ) e tensas (ㄲ). Para a tensa, aperte a garganta e não solte ar. Treine: 가 (ga), 카 (ka), 까 (kka).",
+          "examples": [
+            { "ko": "까", "rom": "kka", "pt": "sílaba \"kka\" (tensa)" },
+            { "ko": "따", "rom": "tta", "pt": "sílaba \"tta\" (tensa)" },
+            { "ko": "싸", "rom": "ssa", "pt": "sílaba \"ssa\" (tensa)" }
+          ] }
+      ]
+    },
+    {
+      "unit": 5, "kind": "words", "theme": "Batchim e montagem de sílabas",
+      "objectives": ["Entender o batchim (consoante final)", "Ler palavras simples com batchim"],
+      "vocabulary": [
+        { "ko": "한국", "rom": "hanguk", "pt": "Coreia" },
+        { "ko": "사랑", "rom": "sarang", "pt": "amor" },
+        { "ko": "밤", "rom": "bam", "pt": "noite" },
+        { "ko": "책", "rom": "chaek", "pt": "livro" },
+        { "ko": "물", "rom": "mul", "pt": "água" },
+        { "ko": "집", "rom": "jip", "pt": "casa" },
+        { "ko": "강", "rom": "gang", "pt": "rio" },
+        { "ko": "산", "rom": "san", "pt": "montanha" },
+        { "ko": "달", "rom": "dal", "pt": "lua" },
+        { "ko": "꽃", "rom": "kkot", "pt": "flor" }
+      ],
+      "grammar": [
+        { "structure": "Batchim (consoante final)", "explanation": "O batchim fica embaixo da sílaba: 한 = ㅎ + ㅏ + ㄴ (han). Na prática, só 7 sons finais existem: ㄱ (k), ㄴ (n), ㄷ (t), ㄹ (l), ㅁ (m), ㅂ (p) e ㅇ (ng). Outras consoantes finais, como ㅅ e ㅈ, soam como ㄷ (t) no fim, por isso 꽃 é lida \"kkot\".",
+          "examples": [
+            { "ko": "밤", "rom": "bam", "pt": "ㅂ + ㅏ + ㅁ: noite" },
+            { "ko": "강", "rom": "gang", "pt": "ㄱ + ㅏ + ㅇ: rio (o ㅇ final soa \"ng\")" },
+            { "ko": "집", "rom": "jip", "pt": "ㅈ + ㅣ + ㅂ: casa (o ㅂ final soa \"p\" suave)" }
+          ] }
+      ]
+    },
+    {
+      "unit": 6, "kind": "words", "theme": "Prática BTS: ler os nomes",
+      "objectives": ["Ler em Hangeul o nome do grupo e dos membros", "Reconhecer o nome do fandom ARMY"],
+      "vocabulary": [
+        { "ko": "방탄소년단", "rom": "bangtansonyeondan", "pt": "BTS (Bangtan Boys)" },
+        { "ko": "알엠", "rom": "arem", "pt": "RM" },
+        { "ko": "진", "rom": "jin", "pt": "Jin" },
+        { "ko": "슈가", "rom": "syuga", "pt": "Suga" },
+        { "ko": "제이홉", "rom": "jeihop", "pt": "J-Hope" },
+        { "ko": "지민", "rom": "jimin", "pt": "Jimin" },
+        { "ko": "뷔", "rom": "bwi", "pt": "V" },
+        { "ko": "정국", "rom": "jeongguk", "pt": "Jungkook" },
+        { "ko": "아미", "rom": "ami", "pt": "ARMY (o fandom)" }
+      ],
+      "grammar": [
+        { "structure": "Nomes em Hangeul", "explanation": "Nomes estrangeiros são escritos com os sons coreanos mais próximos: RM vira 알엠 (a-rem), V vira 뷔 (bwi). Já 방탄소년단 significa literalmente \"jovens à prova de balas\".",
+          "examples": [
+            { "ko": "아미", "rom": "ami", "pt": "ARMY" },
+            { "ko": "지민", "rom": "jimin", "pt": "Jimin" },
+            { "ko": "방탄소년단", "rom": "bangtansonyeondan", "pt": "BTS" }
+          ] }
+      ]
+    }
+  ]
+}

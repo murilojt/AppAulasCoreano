@@ -1,0 +1,220 @@
+{
+  "version": 1,
+  "level": 2,
+  "name": "Iniciante 2",
+  "curriculum": "Nível 2 (Iniciante 2) do Currículo Padrão Internacional de Coreano",
+  "topik": "TOPIK I · nível 2",
+  "units": [
+    {
+      "unit": 9, "kind": "words", "theme": "Passado e fim de semana",
+      "objectives": ["Contar o que aconteceu no passado"],
+      "vocabulary": [
+        { "ko": "어제", "rom": "eoje", "pt": "ontem" },
+        { "ko": "주말", "rom": "jumal", "pt": "fim de semana" },
+        { "ko": "지난주", "rom": "jinanju", "pt": "semana passada" },
+        { "ko": "만나다", "rom": "mannada", "pt": "encontrar" },
+        { "ko": "쇼핑하다", "rom": "syopinghada", "pt": "fazer compras" },
+        { "ko": "여행하다", "rom": "yeohaenghada", "pt": "viajar" }
+      ],
+      "grammar": [
+        { "structure": "V-았/었/했어요 (passado)", "explanation": "Tire o 다 e some 았어요 (vogal ㅏ/ㅗ), 었어요 (outras vogais) ou 했어요 (verbos com 하다). 가다 → 갔어요; 먹다 → 먹었어요; 보다 → 봤어요.",
+          "examples": [
+            { "ko": "주말에 BTS 콘서트를 봤어요.", "rom": "jumare BTS konseoteureul bwasseoyo.", "pt": "No fim de semana, eu vi um show do BTS." },
+            { "ko": "어제 친구를 만났어요.", "rom": "eoje chingureul mannasseoyo.", "pt": "Ontem eu encontrei um amigo." },
+            { "ko": "지난주에 서울을 여행했어요.", "rom": "jinanjue seoureul yeohaenghaesseoyo.", "pt": "Semana passada eu viajei por Seul." }
+          ] }
+      ]
+    },
+    {
+      "unit": 10, "kind": "words", "theme": "Desejos e planos",
+      "objectives": ["Dizer o que quer fazer e o que vai fazer"],
+      "vocabulary": [
+        { "ko": "한국", "rom": "hanguk", "pt": "Coreia" },
+        { "ko": "비행기", "rom": "bihaenggi", "pt": "avião" },
+        { "ko": "표", "rom": "pyo", "pt": "ingresso, bilhete" },
+        { "ko": "사진", "rom": "sajin", "pt": "foto" },
+        { "ko": "찍다", "rom": "jjikda", "pt": "tirar (foto)" },
+        { "ko": "배우다", "rom": "baeuda", "pt": "aprender" },
+        { "ko": "내년", "rom": "naenyeon", "pt": "ano que vem" },
+        { "ko": "더", "rom": "deo", "pt": "mais" }
+      ],
+      "grammar": [
+        { "structure": "V-고 싶어요 (querer)", "explanation": "Tire o 다 e some 고 싶어요 para dizer o que você quer fazer.",
+          "examples": [
+            { "ko": "서울에 가고 싶어요.", "rom": "seoure gago sipeoyo.", "pt": "Eu quero ir a Seul." },
+            { "ko": "한국어를 배우고 싶어요.", "rom": "hangugeoreul baeugo sipeoyo.", "pt": "Eu quero aprender coreano." },
+            { "ko": "사진을 찍고 싶어요.", "rom": "sajineul jjikgo sipeoyo.", "pt": "Eu quero tirar fotos." }
+          ] },
+        { "structure": "V-(으)ㄹ 거예요 (futuro)", "explanation": "Depois de vogal, some ㄹ 거예요; depois de consoante, some 을 거예요. Indica planos e o futuro.",
+          "examples": [
+            { "ko": "내년에 한국어를 더 배울 거예요.", "rom": "naenyeone hangugeoreul deo baeul geoyeyo.", "pt": "Ano que vem eu vou aprender mais coreano." },
+            { "ko": "내일 학교에 갈 거예요.", "rom": "naeil hakgyoe gal geoyeyo.", "pt": "Amanhã eu vou à escola." },
+            { "ko": "주말에 사진을 찍을 거예요.", "rom": "jumare sajineul jjigeul geoyeyo.", "pt": "No fim de semana eu vou tirar fotos." }
+          ] }
+      ]
+    },
+    {
+      "unit": 11, "kind": "words", "theme": "Família e pessoas",
+      "objectives": ["Falar de família, amigos e descrever pessoas"],
+      "vocabulary": [
+        { "ko": "가족", "rom": "gajok", "pt": "família" },
+        { "ko": "형", "rom": "hyeong", "pt": "irmão mais velho (para homens)" },
+        { "ko": "누나", "rom": "nuna", "pt": "irmã mais velha (para homens)" },
+        { "ko": "언니", "rom": "eonni", "pt": "irmã mais velha (para mulheres)" },
+        { "ko": "오빠", "rom": "oppa", "pt": "irmão mais velho (para mulheres)" },
+        { "ko": "동생", "rom": "dongsaeng", "pt": "irmão(ã) mais novo(a)" },
+        { "ko": "친구", "rom": "chingu", "pt": "amigo(a)" },
+        { "ko": "멤버", "rom": "membeo", "pt": "membro (do grupo)" },
+        { "ko": "키가 크다", "rom": "kiga keuda", "pt": "ser alto" },
+        { "ko": "친절하다", "rom": "chinjeolhada", "pt": "ser gentil" },
+        { "ko": "맏형", "rom": "matyeong", "pt": "o mais velho do grupo" }
+      ],
+      "grammar": [
+        { "structure": "A-아요/어요 (adjetivos)", "explanation": "Adjetivos se conjugam como verbos: tire o 다 e some 아요/어요/해요. 크다 → 커요; 친절하다 → 친절해요.",
+          "examples": [
+            { "ko": "친구는 키가 커요.", "rom": "chinguneun kiga keoyo.", "pt": "Meu amigo é alto." },
+            { "ko": "지민은 친절해요.", "rom": "jimineun chinjeolhaeyo.", "pt": "Jimin é gentil." }
+          ] },
+        { "structure": "그리고 / 그래서", "explanation": "그리고 significa \"e, além disso\"; 그래서 significa \"por isso, então\". Ligam duas frases.",
+          "examples": [
+            { "ko": "진은 BTS의 맏형이에요.", "rom": "jineun BTSui matyeongieyo.", "pt": "Jin é o mais velho do BTS." },
+            { "ko": "저는 팬이에요. 그래서 콘서트에 가요.", "rom": "jeoneun paenieyo. geuraeseo konseoteue gayo.", "pt": "Eu sou fã. Por isso vou ao show." },
+            { "ko": "친구는 친절해요. 그리고 키가 커요.", "rom": "chinguneun chinjeolhaeyo. geurigo kiga keoyo.", "pt": "Meu amigo é gentil. E também é alto." }
+          ] }
+      ]
+    },
+    {
+      "unit": 12, "kind": "words", "theme": "Compras",
+      "objectives": ["Comprar, comparar preços e fazer pedidos educados"],
+      "vocabulary": [
+        { "ko": "사다", "rom": "sada", "pt": "comprar" },
+        { "ko": "비싸다", "rom": "bissada", "pt": "ser caro" },
+        { "ko": "싸다", "rom": "ssada", "pt": "ser barato" },
+        { "ko": "크다", "rom": "keuda", "pt": "ser grande" },
+        { "ko": "작다", "rom": "jakda", "pt": "ser pequeno" },
+        { "ko": "옷", "rom": "ot", "pt": "roupa" },
+        { "ko": "굿즈", "rom": "gutjeu", "pt": "merch (produtos oficiais)" },
+        { "ko": "여기", "rom": "yeogi", "pt": "aqui" }
+      ],
+      "grammar": [
+        { "structure": "N보다 더 (mais que)", "explanation": "Compara dois itens: A이/가 B보다 더 + adjetivo (A é mais ... do que B). Aqui 이 = este e 저 = aquele.",
+          "examples": [
+            { "ko": "이 앨범이 저 앨범보다 더 싸요.", "rom": "i aelbeomi jeo aelbeomboda deo ssayo.", "pt": "Este álbum é mais barato que aquele." },
+            { "ko": "이 가방이 더 비싸요.", "rom": "i gabangi deo bissayo.", "pt": "Esta bolsa é mais cara." }
+          ] },
+        { "structure": "V-(으)세요 (pedido educado)", "explanation": "Depois de vogal, some 세요; depois de consoante, some 으세요. Serve para pedir ou sugerir algo com respeito.",
+          "examples": [
+            { "ko": "이 굿즈를 사세요.", "rom": "i gutjeureul saseyo.", "pt": "Compre este merch." },
+            { "ko": "여기에서 사진을 찍으세요.", "rom": "yeogieseo sajineul jjigeuseyo.", "pt": "Tire fotos aqui." },
+            { "ko": "옷이 작아요.", "rom": "osi jagayo.", "pt": "A roupa é pequena." }
+          ] }
+      ]
+    },
+    {
+      "unit": 13, "kind": "words", "theme": "Tempo e estações",
+      "objectives": ["Falar do clima e das estações"],
+      "vocabulary": [
+        { "ko": "봄", "rom": "bom", "pt": "primavera" },
+        { "ko": "여름", "rom": "yeoreum", "pt": "verão" },
+        { "ko": "가을", "rom": "gaeul", "pt": "outono" },
+        { "ko": "겨울", "rom": "gyeoul", "pt": "inverno" },
+        { "ko": "날씨", "rom": "nalssi", "pt": "tempo, clima" },
+        { "ko": "덥다", "rom": "deopda", "pt": "estar calor" },
+        { "ko": "춥다", "rom": "chupda", "pt": "estar frio" },
+        { "ko": "비가 오다", "rom": "biga oda", "pt": "chover" },
+        { "ko": "눈이 오다", "rom": "nuni oda", "pt": "nevar" },
+        { "ko": "봄날", "rom": "bomnal", "pt": "dia de primavera" },
+        { "ko": "따뜻하다", "rom": "ttatteuthada", "pt": "ser quentinho, aconchegante" }
+      ],
+      "grammar": [
+        { "structure": "Irregular em ㅂ (덥다 → 더워요)", "explanation": "Em muitos adjetivos terminados em ㅂ, o ㅂ vira 우 antes de 어요: 덥다 → 더워요; 춥다 → 추워요.",
+          "examples": [
+            { "ko": "여름에는 더워요.", "rom": "yeoreumeneun deowoyo.", "pt": "No verão faz calor." },
+            { "ko": "겨울에는 추워요.", "rom": "gyeoureneun chuwoyo.", "pt": "No inverno faz frio." }
+          ] },
+        { "structure": "A-네요 (exclamação)", "explanation": "Expressa surpresa ou algo que você acabou de perceber: tire o 다 e some 네요.",
+          "examples": [
+            { "ko": "날씨가 덥네요.", "rom": "nalssiga deomneyo.", "pt": "Nossa, que calor!" },
+            { "ko": "눈이 오네요.", "rom": "nuni oneyo.", "pt": "Olha, está nevando!" },
+            { "ko": "봄날은 따뜻해요.", "rom": "bomnareun ttatteuthaeyo.", "pt": "Um dia de primavera é aconchegante." }
+          ] }
+      ]
+    },
+    {
+      "unit": 14, "kind": "words", "theme": "Habilidades e permissão",
+      "objectives": ["Dizer o que sabe fazer e pedir permissão"],
+      "vocabulary": [
+        { "ko": "춤", "rom": "chum", "pt": "dança" },
+        { "ko": "추다", "rom": "chuda", "pt": "dançar" },
+        { "ko": "노래하다", "rom": "noraehada", "pt": "cantar" },
+        { "ko": "운전하다", "rom": "unjeonhada", "pt": "dirigir" },
+        { "ko": "수영하다", "rom": "suyeonghada", "pt": "nadar" },
+        { "ko": "잘", "rom": "jal", "pt": "bem" }
+      ],
+      "grammar": [
+        { "structure": "V-(으)ㄹ 수 있어요/없어요", "explanation": "Diz se alguém consegue ou sabe fazer algo (있어요) ou não (없어요). Depois de vogal, ㄹ 수; depois de consoante, 을 수.",
+          "examples": [
+            { "ko": "제이홉은 춤을 잘 출 수 있어요.", "rom": "jeihobeun chumeul jal chul su isseoyo.", "pt": "J-Hope sabe dançar muito bem." },
+            { "ko": "저는 수영할 수 없어요.", "rom": "jeoneun suyeonghal su eopseoyo.", "pt": "Eu não sei nadar." },
+            { "ko": "노래할 수 있어요.", "rom": "noraehal su isseoyo.", "pt": "Eu sei cantar." }
+          ] },
+        { "structure": "V-아도/어도 돼요? (pode?)", "explanation": "Pede permissão: some 아도/어도 돼요? ao verbo. Resposta positiva: 네, 돼요. Negativa: 아니요, 안 돼요.",
+          "examples": [
+            { "ko": "사진을 찍어도 돼요?", "rom": "sajineul jjigeodo dwaeyo?", "pt": "Posso tirar uma foto?" },
+            { "ko": "여기에서 먹어도 돼요?", "rom": "yeogieseo meogeodo dwaeyo?", "pt": "Posso comer aqui?" },
+            { "ko": "네, 돼요.", "rom": "ne, dwaeyo.", "pt": "Sim, pode." }
+          ] }
+      ]
+    },
+    {
+      "unit": 15, "kind": "words", "theme": "Sentimentos",
+      "objectives": ["Expressar sentimentos e explicar motivos"],
+      "vocabulary": [
+        { "ko": "행복하다", "rom": "haengbokhada", "pt": "ser/estar feliz" },
+        { "ko": "슬프다", "rom": "seulpeuda", "pt": "ser/estar triste" },
+        { "ko": "피곤하다", "rom": "pigonhada", "pt": "estar cansado" },
+        { "ko": "아프다", "rom": "apeuda", "pt": "estar doente, doer" },
+        { "ko": "사랑하다", "rom": "saranghada", "pt": "amar" },
+        { "ko": "마음", "rom": "maeum", "pt": "coração, mente" }
+      ],
+      "grammar": [
+        { "structure": "V/A-아서/어서 (porque)", "explanation": "Liga motivo e consequência: tire o 다 e some 아서/어서/해서. A frase do motivo vem primeiro.",
+          "examples": [
+            { "ko": "피곤해서 집에 있어요.", "rom": "pigonhaeseo jibe isseoyo.", "pt": "Estou cansado, por isso fico em casa." },
+            { "ko": "행복해서 노래해요.", "rom": "haengbokhaeseo noraehaeyo.", "pt": "Estou feliz, por isso canto." },
+            { "ko": "아파서 집에서 자요.", "rom": "apaseo jibeseo jayo.", "pt": "Estou doente, por isso durmo em casa." }
+          ] },
+        { "structure": "Irregular em ㅡ (슬프다 → 슬퍼요)", "explanation": "Em verbos e adjetivos com a última vogal ㅡ, o ㅡ cai e o som muda para ㅓ ou ㅏ: 슬프다 → 슬퍼요; 아프다 → 아파요.",
+          "examples": [
+            { "ko": "저를 사랑해요.", "rom": "jeoreul saranghaeyo.", "pt": "Eu me amo. (tema de Answer: Love Myself)" },
+            { "ko": "마음이 슬퍼요.", "rom": "maeumi seulpeoyo.", "pt": "Meu coração está triste." }
+          ] }
+      ]
+    },
+    {
+      "unit": 16, "kind": "words", "theme": "Encontros e convites",
+      "objectives": ["Fazer convites, combinar encontros e recusar com gentileza"],
+      "vocabulary": [
+        { "ko": "같이", "rom": "gachi", "pt": "juntos" },
+        { "ko": "약속", "rom": "yaksok", "pt": "compromisso, combinado" },
+        { "ko": "시간", "rom": "sigan", "pt": "tempo, hora" },
+        { "ko": "괜찮다", "rom": "gwaenchanta", "pt": "estar tudo bem" },
+        { "ko": "미안하다", "rom": "mianhada", "pt": "sentir muito, desculpar-se" }
+      ],
+      "grammar": [
+        { "structure": "V-(으)ㄹ까요? (vamos?)", "explanation": "Faz uma sugestão ou convite. Depois de vogal, ㄹ까요; depois de consoante, 을까요.",
+          "examples": [
+            { "ko": "같이 Magic Shop 들을까요?", "rom": "gachi Magic Shop deureulkkayo?", "pt": "Vamos ouvir \"Magic Shop\" juntos?" },
+            { "ko": "같이 먹을까요?", "rom": "gachi meogeulkkayo?", "pt": "Vamos comer juntos?" },
+            { "ko": "내일 만날까요?", "rom": "naeil mannalkkayo?", "pt": "Vamos nos encontrar amanhã?" }
+          ] },
+        { "structure": "V-지만 (mas)", "explanation": "Liga duas ideias contrastantes: tire o 다 e some 지만.",
+          "examples": [
+            { "ko": "가고 싶지만 시간이 없어요.", "rom": "gago sipjiman sigani eopseoyo.", "pt": "Eu quero ir, mas não tenho tempo." },
+            { "ko": "비싸지만 맛있어요.", "rom": "bissajiman masisseoyo.", "pt": "É caro, mas é gostoso." },
+            { "ko": "피곤하지만 괜찮아요.", "rom": "pigonhajiman gwaenchanayo.", "pt": "Estou cansado, mas tudo bem." }
+          ] }
+      ]
+    }
+  ]
+}

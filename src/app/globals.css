@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+body { @apply bg-brand-50/40 text-slate-800 antialiased; }
+
+@layer components {
+  .card { @apply rounded-2xl border border-slate-200 bg-white p-5 shadow-sm; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-2xl px-5 py-3 text-sm font-bold uppercase tracking-wide transition active:translate-y-[2px] disabled:cursor-not-allowed disabled:opacity-50; }
+  .btn-primary { @apply bg-brand-500 text-white shadow-[0_4px_0_0_#5624a8] hover:bg-brand-400 active:shadow-none; }
+  .btn-ghost { @apply border-2 border-slate-200 bg-white text-slate-600 shadow-[0_3px_0_0_#e2e8f0] hover:bg-slate-50 active:shadow-none; }
+  .btn-danger { @apply bg-rose-500 text-white shadow-[0_4px_0_0_#be123c] hover:bg-rose-400 active:shadow-none; }
+  .opt { @apply w-full rounded-2xl border-2 border-slate-200 bg-white px-4 py-3 text-left text-base font-semibold text-slate-700 shadow-[0_3px_0_0_#e2e8f0] transition hover:bg-brand-50 active:translate-y-[2px] active:shadow-none; }
+  .opt-selected { @apply border-brand-400 bg-brand-50 text-brand-700 shadow-[0_3px_0_0_#b794ff]; }
+  .opt-right { @apply animate-pop border-emerald-400 bg-emerald-50 text-emerald-700 shadow-[0_3px_0_0_#6ee7b7]; }
+  .opt-wrong { @apply animate-shake border-rose-400 bg-rose-50 text-rose-700 shadow-[0_3px_0_0_#fda4af]; }
+  .input { @apply w-full rounded-2xl border-2 border-slate-200 bg-white px-4 py-3 text-base outline-none transition focus:border-brand-400; }
+}
+
+.ko { font-family: "Noto Sans KR", "Malgun Gothic", "Apple SD Gothic Neo", system-ui, sans-serif; }

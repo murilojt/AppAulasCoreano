@@ -1,0 +1,247 @@
+{
+  "version": 1,
+  "level": 1,
+  "name": "Iniciante 1",
+  "curriculum": "Nível 1 (Iniciante 1) do Currículo Padrão Internacional de Coreano",
+  "topik": "TOPIK I · nível 1",
+  "units": [
+    {
+      "unit": 1, "kind": "words", "theme": "Saudações",
+      "objectives": ["Cumprimentar e se despedir"],
+      "vocabulary": [
+        { "ko": "안녕하세요", "rom": "annyeonghaseyo", "pt": "olá" },
+        { "ko": "안녕히 가세요", "rom": "annyeonghi gaseyo", "pt": "tchau (para quem vai embora)" },
+        { "ko": "안녕히 계세요", "rom": "annyeonghi gyeseyo", "pt": "tchau (para quem fica)" },
+        { "ko": "감사합니다", "rom": "gamsahamnida", "pt": "obrigado(a)" },
+        { "ko": "죄송합니다", "rom": "joesonghamnida", "pt": "desculpe" },
+        { "ko": "네", "rom": "ne", "pt": "sim" },
+        { "ko": "아니요", "rom": "aniyo", "pt": "não" },
+        { "ko": "반갑습니다", "rom": "bangapseumnida", "pt": "prazer em conhecer" }
+      ],
+      "grammar": [
+        { "structure": "Expressões fixas de cortesia", "explanation": "Cumprimentos e agradecimentos são expressões prontas, usadas no estilo formal. Quem sai diz 안녕히 계세요 (fique bem); quem fica diz 안녕히 가세요 (vá bem).",
+          "examples": [
+            { "ko": "안녕하세요, 아미!", "rom": "annyeonghaseyo, ami!", "pt": "Olá, ARMY!" },
+            { "ko": "네, 감사합니다.", "rom": "ne, gamsahamnida.", "pt": "Sim, obrigado." },
+            { "ko": "아니요, 죄송합니다.", "rom": "aniyo, joesonghamnida.", "pt": "Não, desculpe." },
+            { "ko": "반갑습니다, 아미!", "rom": "bangapseumnida, ami!", "pt": "Prazer em conhecer, ARMY!" }
+          ] }
+      ]
+    },
+    {
+      "unit": 2, "kind": "words", "theme": "Apresentação pessoal",
+      "objectives": ["Dizer nome, nacionalidade e profissão"],
+      "vocabulary": [
+        { "ko": "이름", "rom": "ireum", "pt": "nome" },
+        { "ko": "저", "rom": "jeo", "pt": "eu (formal)" },
+        { "ko": "브라질 사람", "rom": "beurajil saram", "pt": "brasileiro(a)" },
+        { "ko": "한국 사람", "rom": "hanguk saram", "pt": "coreano(a)" },
+        { "ko": "가수", "rom": "gasu", "pt": "cantor(a)" },
+        { "ko": "학생", "rom": "haksaeng", "pt": "estudante" },
+        { "ko": "회사원", "rom": "hoesawon", "pt": "funcionário(a) de empresa" },
+        { "ko": "팬", "rom": "paen", "pt": "fã" }
+      ],
+      "grammar": [
+        { "structure": "N은/는 (tópico)", "explanation": "Marca o assunto da frase. Use 는 depois de vogal e 은 depois de consoante (batchim).",
+          "examples": [
+            { "ko": "저는 무릴로예요.", "rom": "jeoneun murilloyeyo.", "pt": "Eu sou o Murilo." },
+            { "ko": "지민은 가수예요.", "rom": "jimineun gasuyeyo.", "pt": "Jimin é cantor." },
+            { "ko": "저는 팬이에요.", "rom": "jeoneun paenieyo.", "pt": "Eu sou fã." }
+          ] },
+        { "structure": "N이에요/예요 (ser)", "explanation": "Equivale ao verbo \"ser\". Use 이에요 depois de consoante (batchim) e 예요 depois de vogal.",
+          "examples": [
+            { "ko": "저는 학생이에요.", "rom": "jeoneun haksaengieyo.", "pt": "Eu sou estudante." },
+            { "ko": "정국은 한국 사람이에요.", "rom": "jeongugeun hanguk saramieyo.", "pt": "Jungkook é coreano." },
+            { "ko": "저는 브라질 사람이에요.", "rom": "jeoneun beurajil saramieyo.", "pt": "Eu sou brasileiro(a)." }
+          ] }
+      ]
+    },
+    {
+      "unit": 3, "kind": "words", "theme": "Objetos e posse",
+      "objectives": ["Perguntar o que é algo e dizer o que tem"],
+      "vocabulary": [
+        { "ko": "이것", "rom": "igeot", "pt": "isto" },
+        { "ko": "그것", "rom": "geugeot", "pt": "isso" },
+        { "ko": "저것", "rom": "jeogeot", "pt": "aquilo" },
+        { "ko": "앨범", "rom": "aelbeom", "pt": "álbum" },
+        { "ko": "포스터", "rom": "poseuteo", "pt": "pôster" },
+        { "ko": "응원봉", "rom": "eungwonbong", "pt": "lightstick (bastão de luz)" },
+        { "ko": "가방", "rom": "gabang", "pt": "bolsa, mochila" },
+        { "ko": "휴대폰", "rom": "hyudaepon", "pt": "celular" },
+        { "ko": "아미밤", "rom": "amibam", "pt": "ARMY Bomb (lightstick oficial)" }
+      ],
+      "grammar": [
+        { "structure": "이게 뭐예요?", "explanation": "Pergunta \"O que é isto?\". 이게 é a forma curta de 이것이. Na resposta, 그건 e 저건 são formas curtas de 그것은 e 저것은.",
+          "examples": [
+            { "ko": "이게 뭐예요?", "rom": "ige mwoyeyo?", "pt": "O que é isto?" },
+            { "ko": "그건 앨범이에요.", "rom": "geugeon aelbeomieyo.", "pt": "Isso é um álbum." },
+            { "ko": "저건 포스터예요.", "rom": "jeogeon poseuteoyeyo.", "pt": "Aquilo é um pôster." }
+          ] },
+        { "structure": "N이/가 있어요/없어요 (ter/haver)", "explanation": "있어요 significa \"ter/existir\" e 없어요 \"não ter/não existir\". Marque o objeto com 이 (depois de consoante) ou 가 (depois de vogal).",
+          "examples": [
+            { "ko": "아미밤이 있어요.", "rom": "amibami isseoyo.", "pt": "Eu tenho a ARMY Bomb." },
+            { "ko": "가방이 없어요.", "rom": "gabangi eopseoyo.", "pt": "Eu não tenho bolsa." },
+            { "ko": "휴대폰이 있어요.", "rom": "hyudaeponi isseoyo.", "pt": "Eu tenho celular." }
+          ] }
+      ]
+    },
+    {
+      "unit": 4, "kind": "words", "theme": "Números e preços",
+      "objectives": ["Contar e dizer preços"],
+      "vocabulary": [
+        { "ko": "일", "rom": "il", "pt": "1 (sino-coreano)" },
+        { "ko": "이", "rom": "i", "pt": "2 (sino-coreano)" },
+        { "ko": "삼", "rom": "sam", "pt": "3 (sino-coreano)" },
+        { "ko": "사", "rom": "sa", "pt": "4 (sino-coreano)" },
+        { "ko": "오", "rom": "o", "pt": "5 (sino-coreano)" },
+        { "ko": "육", "rom": "yuk", "pt": "6 (sino-coreano)" },
+        { "ko": "칠", "rom": "chil", "pt": "7 (sino-coreano)" },
+        { "ko": "팔", "rom": "pal", "pt": "8 (sino-coreano)" },
+        { "ko": "구", "rom": "gu", "pt": "9 (sino-coreano)" },
+        { "ko": "십", "rom": "sip", "pt": "10 (sino-coreano)" },
+        { "ko": "백", "rom": "baek", "pt": "100" },
+        { "ko": "천", "rom": "cheon", "pt": "1.000" },
+        { "ko": "만", "rom": "man", "pt": "10.000" },
+        { "ko": "원", "rom": "won", "pt": "won (moeda coreana)" }
+      ],
+      "grammar": [
+        { "structure": "얼마예요? (quanto custa?)", "explanation": "Pergunta o preço. Os números sino-coreanos formam valores grandes: 이만 = 2 × 10.000 = 20.000; 삼만 오천 = 35.000.",
+          "examples": [
+            { "ko": "앨범이 이만 원이에요.", "rom": "aelbeomi iman wonieyo.", "pt": "O álbum custa 20.000 wons." },
+            { "ko": "포스터는 얼마예요?", "rom": "poseuteoneun eolmayeyo?", "pt": "Quanto custa o pôster?" },
+            { "ko": "응원봉은 삼만 오천 원이에요.", "rom": "eungwonbongeun samman ocheon wonieyo.", "pt": "O lightstick custa 35.000 wons." },
+            { "ko": "가방이 십만 원이에요.", "rom": "gabangi simman wonieyo.", "pt": "A bolsa custa 100.000 wons." }
+          ] }
+      ]
+    },
+    {
+      "unit": 5, "kind": "words", "theme": "Horas e dias",
+      "objectives": ["Dizer horário e dias da semana"],
+      "vocabulary": [
+        { "ko": "하나", "rom": "hana", "pt": "1 (nativo)" },
+        { "ko": "둘", "rom": "dul", "pt": "2 (nativo)" },
+        { "ko": "셋", "rom": "set", "pt": "3 (nativo)" },
+        { "ko": "넷", "rom": "net", "pt": "4 (nativo)" },
+        { "ko": "다섯", "rom": "daseot", "pt": "5 (nativo)" },
+        { "ko": "여섯", "rom": "yeoseot", "pt": "6 (nativo)" },
+        { "ko": "일곱", "rom": "ilgop", "pt": "7 (nativo)" },
+        { "ko": "여덟", "rom": "yeodeol", "pt": "8 (nativo)" },
+        { "ko": "아홉", "rom": "ahop", "pt": "9 (nativo)" },
+        { "ko": "열", "rom": "yeol", "pt": "10 (nativo)" },
+        { "ko": "시", "rom": "si", "pt": "hora (no relógio)" },
+        { "ko": "분", "rom": "bun", "pt": "minuto" },
+        { "ko": "월요일", "rom": "woryoil", "pt": "segunda-feira" },
+        { "ko": "화요일", "rom": "hwayoil", "pt": "terça-feira" },
+        { "ko": "수요일", "rom": "suyoil", "pt": "quarta-feira" },
+        { "ko": "목요일", "rom": "mogyoil", "pt": "quinta-feira" },
+        { "ko": "금요일", "rom": "geumyoil", "pt": "sexta-feira" },
+        { "ko": "토요일", "rom": "toyoil", "pt": "sábado" },
+        { "ko": "일요일", "rom": "iryoil", "pt": "domingo" },
+        { "ko": "오늘", "rom": "oneul", "pt": "hoje" },
+        { "ko": "내일", "rom": "naeil", "pt": "amanhã" }
+      ],
+      "grammar": [
+        { "structure": "N에 (tempo)", "explanation": "A partícula 에 marca o momento em que algo acontece (dia, hora). Para horas use números nativos + 시; para minutos, sino-coreanos + 분.",
+          "examples": [
+            { "ko": "콘서트는 토요일 일곱 시에 있어요.", "rom": "konseoteuneun toyoil ilgop sie isseoyo.", "pt": "O show é sábado às sete horas." },
+            { "ko": "금요일 여덟 시에 있어요.", "rom": "geumyoil yeodeol sie isseoyo.", "pt": "Tem na sexta, às oito horas." }
+          ] },
+        { "structure": "몇 시예요?", "explanation": "Pergunta \"Que horas são?\". Responda com número nativo + 시.",
+          "examples": [
+            { "ko": "몇 시예요?", "rom": "myeot siyeyo?", "pt": "Que horas são?" },
+            { "ko": "일곱 시예요.", "rom": "ilgop siyeyo.", "pt": "São sete horas." },
+            { "ko": "오늘은 수요일이에요.", "rom": "oneureun suyoirieyo.", "pt": "Hoje é quarta-feira." },
+            { "ko": "내일은 금요일이에요.", "rom": "naeireun geumyoirieyo.", "pt": "Amanhã é sexta-feira." }
+          ] }
+      ]
+    },
+    {
+      "unit": 6, "kind": "words", "theme": "Rotina diária",
+      "objectives": ["Falar do dia a dia"],
+      "vocabulary": [
+        { "ko": "가다", "rom": "gada", "pt": "ir" },
+        { "ko": "오다", "rom": "oda", "pt": "vir" },
+        { "ko": "먹다", "rom": "meokda", "pt": "comer" },
+        { "ko": "마시다", "rom": "masida", "pt": "beber" },
+        { "ko": "보다", "rom": "boda", "pt": "ver, assistir" },
+        { "ko": "듣다", "rom": "deutda", "pt": "ouvir" },
+        { "ko": "공부하다", "rom": "gongbuhada", "pt": "estudar" },
+        { "ko": "일하다", "rom": "ilhada", "pt": "trabalhar" },
+        { "ko": "자다", "rom": "jada", "pt": "dormir" },
+        { "ko": "노래", "rom": "norae", "pt": "música, canção" },
+        { "ko": "매일", "rom": "maeil", "pt": "todo dia" },
+        { "ko": "한국어", "rom": "hangugeo", "pt": "idioma coreano" }
+      ],
+      "grammar": [
+        { "structure": "V-아요/어요/해요 (presente educado)", "explanation": "Tire o 다 do verbo. Se a última vogal for ㅏ ou ㅗ, some 아요 (가다 → 가요, 보다 → 봐요); com outras vogais, some 어요 (먹다 → 먹어요); verbos com 하다 viram 해요 (공부하다 → 공부해요). 듣다 é irregular: 들어요.",
+          "examples": [
+            { "ko": "저는 매일 BTS 노래를 들어요.", "rom": "jeoneun maeil BTS noraereul deureoyo.", "pt": "Eu ouço músicas do BTS todo dia." },
+            { "ko": "저는 한국어를 공부해요.", "rom": "jeoneun hangugeoreul gongbuhaeyo.", "pt": "Eu estudo coreano." }
+          ] },
+        { "structure": "N을/를 (objeto)", "explanation": "Marca o objeto direto. Use 를 depois de vogal e 을 depois de consoante.",
+          "examples": [
+            { "ko": "저는 책을 봐요.", "rom": "jeoneun chaegeul bwayo.", "pt": "Eu leio um livro." },
+            { "ko": "지민은 노래를 들어요.", "rom": "jimineun noraereul deureoyo.", "pt": "Jimin ouve música." },
+            { "ko": "저는 밤에 자요.", "rom": "jeoneun bame jayo.", "pt": "Eu durmo à noite." }
+          ] }
+      ]
+    },
+    {
+      "unit": 7, "kind": "words", "theme": "Lugares da cidade",
+      "objectives": ["Dizer aonde vai e onde faz algo"],
+      "vocabulary": [
+        { "ko": "집", "rom": "jip", "pt": "casa" },
+        { "ko": "회사", "rom": "hoesa", "pt": "empresa" },
+        { "ko": "학교", "rom": "hakgyo", "pt": "escola" },
+        { "ko": "카페", "rom": "kape", "pt": "café (lugar)" },
+        { "ko": "식당", "rom": "sikdang", "pt": "restaurante" },
+        { "ko": "공연장", "rom": "gongyeonjang", "pt": "casa de shows" },
+        { "ko": "서울", "rom": "seoul", "pt": "Seul" },
+        { "ko": "부산", "rom": "busan", "pt": "Busan" }
+      ],
+      "grammar": [
+        { "structure": "N에 가다 (ir a)", "explanation": "A partícula 에 indica o destino de verbos de movimento como 가다 e 오다.",
+          "examples": [
+            { "ko": "저는 학교에 가요.", "rom": "jeoneun hakgyoe gayo.", "pt": "Eu vou à escola." },
+            { "ko": "지민은 서울에 가요.", "rom": "jimineun seoure gayo.", "pt": "Jimin vai a Seul." },
+            { "ko": "아미는 공연장에 가요.", "rom": "amineun gongyeonjange gayo.", "pt": "A ARMY vai à casa de shows." }
+          ] },
+        { "structure": "N에서 V (fazer em)", "explanation": "A partícula 에서 indica o lugar onde a ação acontece.",
+          "examples": [
+            { "ko": "카페에서 커피를 마셔요.", "rom": "kapeeseo keopireul masyeoyo.", "pt": "Eu tomo café na cafeteria." },
+            { "ko": "회사에서 일해요.", "rom": "hoesaeseo ilhaeyo.", "pt": "Eu trabalho na empresa." },
+            { "ko": "식당에서 김치를 먹어요.", "rom": "sikdangeseo gimchireul meogeoyo.", "pt": "Eu como kimchi no restaurante." }
+          ] }
+      ]
+    },
+    {
+      "unit": 8, "kind": "words", "theme": "Comida e pedidos",
+      "objectives": ["Pedir comida e dizer gostos"],
+      "vocabulary": [
+        { "ko": "김치", "rom": "gimchi", "pt": "kimchi" },
+        { "ko": "비빔밥", "rom": "bibimbap", "pt": "bibimbap" },
+        { "ko": "라면", "rom": "ramyeon", "pt": "lámen" },
+        { "ko": "떡볶이", "rom": "tteokbokki", "pt": "tteokbokki (bolinhos de arroz picantes)" },
+        { "ko": "물", "rom": "mul", "pt": "água" },
+        { "ko": "커피", "rom": "keopi", "pt": "café (bebida)" },
+        { "ko": "맛있다", "rom": "masitda", "pt": "ser gostoso" },
+        { "ko": "좋아하다", "rom": "joahada", "pt": "gostar" },
+        { "ko": "음식", "rom": "eumsik", "pt": "comida" }
+      ],
+      "grammar": [
+        { "structure": "N 주세요 (me dê, por favor)", "explanation": "Use para pedir algo com educação: diga o item e 주세요.",
+          "examples": [
+            { "ko": "비빔밥 주세요.", "rom": "bibimbap juseyo.", "pt": "Um bibimbap, por favor." },
+            { "ko": "물 주세요.", "rom": "mul juseyo.", "pt": "Água, por favor." },
+            { "ko": "커피 주세요.", "rom": "keopi juseyo.", "pt": "Um café, por favor." }
+          ] },
+        { "structure": "N을/를 좋아해요", "explanation": "Diz do que alguém gosta. O objeto leva 을/를 e o verbo é 좋아해요.",
+          "examples": [
+            { "ko": "진은 음식을 좋아해요.", "rom": "jineun eumsigeul joahaeyo.", "pt": "Jin gosta de comida." },
+            { "ko": "저는 라면을 좋아해요.", "rom": "jeoneun ramyeoneul joahaeyo.", "pt": "Eu gosto de lámen." },
+            { "ko": "떡볶이가 맛있어요.", "rom": "tteokbokkiga masisseoyo.", "pt": "O tteokbokki é gostoso." }
+          ] }
+      ]
+    }
+  ]
+}

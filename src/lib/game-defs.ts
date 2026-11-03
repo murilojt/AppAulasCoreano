@@ -1,0 +1,18 @@
+export const ACHIEVEMENTS = [
+  { key: "first-lesson", title: "Primeiro passo", desc: "Complete sua primeira lição", icon: "👣" },
+  { key: "hangeul-master", title: "Mestre do Hangeul", desc: "Conclua todas as lições do Nível 0", icon: "🔤" },
+  { key: "streak-3", title: "Fogo aceso", desc: "3 dias seguidos de estudo", icon: "🔥" },
+  { key: "streak-7", title: "Semana ARMY", desc: "7 dias seguidos de estudo", icon: "💜" },
+  { key: "streak-30", title: "Dedicação total", desc: "30 dias seguidos de estudo", icon: "🏆" },
+  { key: "xp-100", title: "100 XP", desc: "Alcance 100 XP", icon: "⭐" },
+  { key: "xp-500", title: "500 XP", desc: "Alcance 500 XP", icon: "🌟" },
+  { key: "xp-1500", title: "1500 XP", desc: "Alcance 1500 XP", icon: "🚀" },
+  { key: "perfect", title: "Impecável", desc: "Termine uma lição sem errar nada", icon: "✨" },
+  { key: "lessons-10", title: "Maratonista", desc: "Complete 10 lições", icon: "🏃" },
+  { key: "lessons-40", title: "Quase fluente", desc: "Complete 40 lições", icon: "📚" },
+  { key: "review-10", title: "Memória de ferro", desc: "Acerte 10 palavras na revisão", icon: "🧠" },
+  { key: "first-chat", title: "Primeira conversa", desc: "Converse com o tutor em coreano", icon: "💬" },
+  { key: "level-1", title: "Iniciante 1 completo", desc: "Conclua todas as lições do Nível 1", icon: "🥉" },
+  { key: "level-2", title: "Iniciante 2 completo", desc: "Conclua todas as lições do Nível 2", icon: "🥈" },
+  { key: "simulado", title: "Pronto para o TOPIK", desc: "Faça o simulado final", icon: "🎓" },
+] as const;

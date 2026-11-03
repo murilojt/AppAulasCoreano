@@ -1,0 +1,122 @@
+// Para trocar por Postgres: provider = "postgresql" e DATABASE_URL com a URL do Postgres.
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id             String   @id @default(cuid())
+  email          String   @unique
+  name           String
+  passwordHash   String
+  xp             Int      @default(0)
+  streak         Int      @default(0)
+  bestStreak     Int      @default(0)
+  lastActiveDate String?
+  hearts         Int      @default(5)
+  heartsUpdated  DateTime @default(now())
+  createdAt      DateTime @default(now())
+
+  progress      LessonProgress[]
+  reviews       WordReview[]
+  achievements  Achievement[]
+  conversations Conversation[]
+  activity      DailyActivity[]
+}
+
+// Lições (conteúdo). exercises = JSON serializado (compatível com SQLite).
+model Lesson {
+  id        String   @id @default(cuid())
+  key       String   @unique // ex: L1U2-3
+  level     Int
+  unit      Int      // número global da unidade (0 = Hangeul; 1..16)
+  order     Int      // posição dentro da unidade
+  kind      String   @default("lesson") // lesson | simulado
+  title     String
+  summary   String   @default("")
+  exercises String
+  source    String   @default("template") // template | claude
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  progress LessonProgress[]
+}
+
+model LessonProgress {
+  id          String   @id @default(cuid())
+  userId      String
+  lessonKey   String
+  bestScore   Int      @default(0) // % de acerto
+  completions Int      @default(0)
+  completedAt DateTime @default(now())
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lesson Lesson @relation(fields: [lessonKey], references: [key], onDelete: Cascade)
+
+  @@unique([userId, lessonKey])
+}
+
+// Revisão espaçada (caixas de Leitner)
+model WordReview {
+  id       String   @id @default(cuid())
+  userId   String
+  ko       String
+  rom      String   @default("")
+  pt       String   @default("")
+  box      Int      @default(0)
+  lapses   Int      @default(0)
+  dueAt    DateTime @default(now())
+  lastSeen DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, ko])
+}
+
+model Achievement {
+  id         String   @id @default(cuid())
+  userId     String
+  key        String
+  unlockedAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, key])
+}
+
+model DailyActivity {
+  id      String @id @default(cuid())
+  userId  String
+  date    String // YYYY-MM-DD
+  xp      Int    @default(0)
+  lessons Int    @default(0)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, date])
+}
+
+model Conversation {
+  id        String   @id @default(cuid())
+  userId    String
+  scenario  String   @default("livre")
+  title     String   @default("Conversa")
+  createdAt DateTime @default(now())
+
+  user     User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  messages Message[]
+}
+
+model Message {
+  id             String   @id @default(cuid())
+  conversationId String
+  role           String // user | tutor
+  content        String // JSON (tutor) ou texto (user)
+  createdAt      DateTime @default(now())
+
+  conversation Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+}
